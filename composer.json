@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "classmap": [
+            "classes"
+        ],
+        "files": [
+            "sub/sub-index.php",
+            "sub/sub-sub/sub-sub-index.php"
+        ],
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
