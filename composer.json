@@ -5,10 +5,14 @@
         ],
         "files": [
             "sub/sub-index.php",
-            "sub/sub-sub/sub-sub-index.php"
+            "sub/sub-sub/sub-sub-index.php",
+            "sub/sub-sub/sub-sub-testable.php"
         ],
         "psr-4": {
             "App\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
     }
 }
